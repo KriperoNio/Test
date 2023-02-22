@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testmod:bluemirit_block"
+    }
+  ],
+  "result": {
+    "item": "testmod:bluemirit",
+    "count": 9
+  }
+}

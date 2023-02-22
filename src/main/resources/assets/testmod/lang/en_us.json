@@ -1,0 +1,8 @@
+{
+  "item.testmod.bluemirit": "Bluemirit",
+  "item.testmod.raw_bluemirit": "Raw Bluemirit",
+
+  "block.testmod.bluemirit_block": "Bluemirit Block",
+
+  "itemGroup.test_tab": "Test Tab"
+}

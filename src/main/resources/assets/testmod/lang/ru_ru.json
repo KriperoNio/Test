@@ -1,0 +1,8 @@
+{
+  "item.testmod.bluemirit": "Синий Дух",
+  "item.testmod.raw_bluemirit": "Синяя Руда",
+
+  "block.testmod.bluemirit_block": "Синий блок",
+
+  "itemGroup.test_tab": "Test Tab"
+}
