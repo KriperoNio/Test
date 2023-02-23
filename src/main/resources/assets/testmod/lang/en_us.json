@@ -1,8 +1,11 @@
 {
   "item.testmod.bluemirit": "Bluemirit",
   "item.testmod.raw_bluemirit": "Raw Bluemirit",
+  "item.testmod.random_number": "Random Number",
 
   "block.testmod.bluemirit_block": "Bluemirit Block",
+  "block.testmod.jump_block": "Jump Block",
+
 
   "itemGroup.test_tab": "Test Tab"
 }

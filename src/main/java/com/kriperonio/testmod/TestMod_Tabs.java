@@ -1,5 +1,6 @@
-package com.kriperonio.testmod.item;
+package com.kriperonio.testmod;
 
+import com.kriperonio.testmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 

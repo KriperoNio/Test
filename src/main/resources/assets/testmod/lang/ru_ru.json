@@ -1,8 +1,10 @@
 {
   "item.testmod.bluemirit": "Синий Дух",
   "item.testmod.raw_bluemirit": "Синяя Руда",
+  "item.testmod.random_number": "Рандомное Число",
 
   "block.testmod.bluemirit_block": "Синий блок",
+  "block.testmod.jump_block": "Блок Прыжка",
 
   "itemGroup.test_tab": "Test Tab"
 }

@@ -1,9 +1,9 @@
 package com.kriperonio.testmod.block;
 
 import com.kriperonio.testmod.TestMod;
+import com.kriperonio.testmod.block.customs.TestBlockEffects;
 import com.kriperonio.testmod.item.ModItems;
-import com.kriperonio.testmod.item.TestMod_Tabs;
-import net.minecraft.client.gui.screens.inventory.CreativeInventoryListener;
+import com.kriperonio.testmod.TestMod_Tabs;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -31,6 +31,10 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLUEMIRIT_BLOCK = registerBlock("bluemirit_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.WATER)
+                    .strength(6f).requiresCorrectToolForDrops()), TestMod_Tabs.TEST_TAB);
+
+    public static final RegistryObject<Block> JUMP_BLOCK = registerBlock("jump_block",
+            () -> new TestBlockEffects(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), TestMod_Tabs.TEST_TAB);
 
 
